@@ -1,0 +1,1 @@
+Al momento il programma salva i risultati nella cartella Temp ed effettua simulazioni MC con algoritmo Metropolis per 100 temperature diverse da 2 a 0.5 e con campo h = 0.

@@ -1,0 +1,19 @@
+2
+0.5
+100
+50
+1.0
+0.0
+1
+50
+10000
+
+  ReadInput >> temp_max;	// temperatura massima
+  ReadInput >> temp_min;	// temperatura minima
+  ReadInput >> nbins;		// numero di temperature simulate
+  ReadInput >> nspin;		// numero di spin
+  ReadInput >> J;		// energia di interazione J
+  ReadInput >> h;		// campo esterno h		
+  ReadInput >> metro;		// metro=0 per Gibbs, metro=1 per Metropolis
+  ReadInput >> nblk;		// numero di blocchi
+  ReadInput >> nstep;		// numero di passi totali

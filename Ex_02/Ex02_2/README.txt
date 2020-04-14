@@ -1,0 +1,1 @@
+Allo stato attuale il programma salva gli output nella cartella Temp per evitare sovrascrizioni. 

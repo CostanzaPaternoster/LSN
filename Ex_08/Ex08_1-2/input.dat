@@ -1,0 +1,38 @@
+1
+0.8
+0.61
+2.5
+500
+1000
+1000
+0.1
+0.1
+0
+0
+0
+1
+100
+-3.5
+3.5
+
+
+ReadInput >> x;               //Starting position
+ReadInput >> mean;            //parameter mean
+ReadInput >> sigma;           //parameter sigma
+
+ReadInput >> delta;           //Step length for position sampling
+ReadInput >> nblk;            //Number of blocks
+ReadInput >> nstep;           //Number of steps per blocks
+ReadInput >> eqstep;	      //Number of equilibration steps
+
+ReadInput >> deltamean_var;   //Step length for mean and sigma variation 
+ReadInput >> deltasigma_var;  //Step length for mean and sigma variation
+ReadInput >> nvar;            //Number of variation steps: if = 0 no variation 
+
+ReadInput >> print_xyz;       //Print sampled position if = 1
+ReadInput >> print_instant;   //Print instant values if = 1
+ReadInput >> print_blocks;    //Print blocks averages if = 1
+
+ReadInput >> nbins	      //Number of histogram bins 		
+ReadInput >> histo_start      //Histogram start				
+ReadInput >> histo_end	      //Histogram end				

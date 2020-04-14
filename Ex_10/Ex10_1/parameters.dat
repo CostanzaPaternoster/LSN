@@ -1,0 +1,16 @@
+1
+30
+10
+0.25
+100
+0
+0.5
+1000
+ input >> geometry;	// 0: città nel quadrato 1: città sulla circonferenza
+ input >> ncities; 	// numero di città
+ input >> init_shuffle;	// numero di permutazioni per creazione individuo
+ input >> pmutation;	// probabilità di mutazione (mossa)
+ input >> nstep;	// numero di passi del Metropolis
+ input >> beta0;	// inverso della temp iniziale
+ input >> deltabeta;	// variazione dell’inverso della temp
+ input >> ntemp;	// numero di temperature 

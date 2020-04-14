@@ -1,0 +1,19 @@
+1.2
+108
+0.05
+5.0
+0.0005
+10000
+100
+1000
+150
+
+  ReadInput >> temp;	// temperatura
+  ReadInput >> npart;	// numero di particelle
+  ReadInput >> rho;	// densità media
+  ReadInput >> rcut;	// raggio di cut-off
+  ReadInput >> delta;	// passo di integrazione
+  ReadInput >> nstep;	// numero totale di passi di integrazione 
+  ReadInput >> nblk	// numero di blocchi
+  ReadInput >> iprint;	// stampa a video la temp istantanea ogni iprint step
+  ReadInput >> nbins;	// numero di bin per istogramma g(r)

@@ -1,0 +1,1 @@
+Al momento il programma salva i risultati nella cartella Temp e, dopo il lancio, guida l’utente nella scelta dell’orbitale da campionare (1s o 2p), del tipo di mossa (uniforme o gaussiana), della dimensione del passo, del tempo di equilibrazione.

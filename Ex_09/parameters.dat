@@ -1,0 +1,17 @@
+1
+30
+15
+0.3
+0.07
+0.5
+300
+900
+ 
+ input >> geometry;		// 0: città nel quadrato 1: città sulla circonferenza
+ input >> ncities;		// numero di città
+ input >> init_shuffle;		// numero di permutazioni per creazione individuo
+ input >> selection_exp;	// esponente per probabilità di selezione genitori
+ input >> pmutation;		// probabilità di mutazione
+ input >> pcrossover;		// probabilità di crossover
+ input >> nstep;		// numero di generazioni
+ input >> dim_population;	// numero di individui 
