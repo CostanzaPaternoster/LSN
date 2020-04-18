@@ -326,10 +326,10 @@ void Averages(int iblk) //Print results for current block
     cout << "Block number " << iblk << endl;
     cout << "Acceptance rate " << accepted/attempted << endl << endl;
     
-    Epot.open("Temp/Liquid/Average/epot.txt",ios::app);
-    Pres.open("Temp/Liquid/Average/pres.txt",ios::app);
-    Gofr.open("Temp/Liquid/Average/gofr.txt",ios::app);
-    Gave.open("Temp/Liquid/Average/gave.txt",ios::app);
+    Epot.open("Temp/Solid/Average/epot.txt",ios::app);
+    Pres.open("Temp/Solid/Average/pres.txt",ios::app);
+    Gofr.open("Temp/Solid/Average/gofr.txt",ios::app);
+    Gave.open("Temp/Solid/Average/gave.txt",ios::app);
     
     stima_pot = blk_av[iv]/blk_norm/(double)npart + vtail; //Potential energy
     glob_av[iv] += stima_pot;
@@ -459,8 +459,8 @@ void Print() //Print instant values of potential energy per particle and pressur
     
     ofstream Epot,Pres;
     
-    Epot.open("Temp/Liquid/Instant/epot_instant.txt",ios::app);
-    Pres.open("Temp/Liquid/Instant/pres_instant.txt",ios::app);
+    Epot.open("Temp/Solid/Instant/epot_instant.txt",ios::app);
+    Pres.open("Temp/Solid/Instant/pres_instant.txt",ios::app);
     
     double epot_inst = walker[iv]/(double)npart + vtail; //Instant potential energy per particle
     double pres_inst = rho * temp + (walker[iw] + ptail * (double)npart) / vol; //Instant Pressure
